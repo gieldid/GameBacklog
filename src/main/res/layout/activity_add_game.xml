@@ -39,7 +39,7 @@
             android:id="@+id/titleInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="hint" />
+            android:hint="@string/hint_title" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -57,7 +57,7 @@
             android:id="@+id/platformInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="hint" />
+            android:hint="@string/hint_platform" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -75,7 +75,7 @@
             android:id="@+id/notesInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="hint" />
+            android:hint="@string/hint_notes" />
     </android.support.design.widget.TextInputLayout>
 
     <Spinner
